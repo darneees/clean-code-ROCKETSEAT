@@ -1,0 +1,34 @@
+CLEAN CODE
+
+1 LEGIBILIDADE - codigo de facil leitura.
+2 MANUTENIVEL - codigo de facil manutenção
+3 PREVISIBILDADE
+4 CONFIANÇA
+
+para dar manutenção em um código limpo você precisa ter duas coisas: Previsibilidade e Confiança
+
+// O QUE NÃO É //
+
+não é um manual e não é um livro, a teroria nao define o clean code.
+
+não é estrutura de pasta, ele não tem nada haver com isso.
+
+não é um código menor.
+
+não tem nada a haver com arquitetura ou designer de software.
+
+não tem nada haver com a sua performance no código.
+
+// --- //
+
+a quantidade de arquivos e pastas não deve influênciar na legibilidade do seu código.
+
+// --- //
+
+principios para se trabalhar em time aplicando o código limpo
+
+1 testes automatizados
+2 revisão
+3 refatoração
+4 simplicidade - kss ( keeped simple and stupid )
+5 itereações curtas
