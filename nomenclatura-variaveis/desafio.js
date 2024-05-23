@@ -1,6 +1,6 @@
 // Nomenclatura de variáveis
 
-const list = [
+const statusFollowerFromEachAccount = [
     {
       title: 'User',
       followers: 5
@@ -38,13 +38,13 @@ const list = [
   
     const data = await response.json()
   
-    const orderList = list.sort((a, b) =>  b.followers - a.followers); 
+    const orderListFromFollower = statusFollowerFromEachAccount.sort((a, b) =>  b.followers - a.followers); 
   
-    const category = orderList.find(i => data.followers > i.followers)
+    const typeFromAccount = orderListFromFollower.find(i => data.followers > i.followers)
   
     const result = {
       github,
-      category: category.title
+      category: typeFromAccount.title
     }
   
     return result
