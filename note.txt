@@ -32,3 +32,7 @@ principios para se trabalhar em time aplicando o código limpo
 3 refatoração
 4 simplicidade - kss ( keeped simple and stupid )
 5 itereações curtas
+
+// --- //
+
+código sempre em inglês seja variaveis, funções, metodos e etc.
